@@ -5,4 +5,13 @@
 */
 
 // your code
-let sum
+let sum=0;
+let startingNumber= 1;
+let finishNumber=20;
+while(startingNumber<=finishNumber){
+    if(startingNumber%2===1){
+        sum+=startingNumber;
+    }
+    startingNumber+=1;
+}
+console.log(sum)
