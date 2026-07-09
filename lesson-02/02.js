@@ -12,8 +12,8 @@ let dice2 =0;// your code
 let isWinningDouble =false;// your code
 
 //Doing random generator for dice1 and dice2 throw
-dice1 = Math.floor(Math.random()*7);
-dice2 = Math.floor(Math.random()*7);
+dice1 = Math.floor(Math.random()*6+1);
+dice2 = Math.floor(Math.random()*6+1);
 //Doing logic which decides if both throws make it a win or loss
 if(dice1===dice2 && dice1>3&&dice2>3){
   isWinningDouble=true;
