@@ -17,3 +17,10 @@ function findLargest(number1,number2,number3) {
         }
     }
 }
+
+function findLargest(number1,number2,number3) {
+let largestNumber = number1;
+if (largestNumber<number2){
+    largestNumber=number2
+}
+}
