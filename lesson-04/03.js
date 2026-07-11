@@ -20,10 +20,11 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 function findCommonElements(array1,array2) {
     let commonArray = [];
     for(let i =0;i<array1.length;i++){
-        if(includesElement(array2,[i])){
+        if(includesElement(array2,array1[i])){
             commonArray.push(array1[i]);
         }
     }
     return commonArray
 }
 
+console.log(findCommonElements([1,2,3,4],[1,2,1]))
