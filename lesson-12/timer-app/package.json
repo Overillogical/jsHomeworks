@@ -1,0 +1,31 @@
+{
+  "name": "timer-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "init-db": "node src/init-db.js"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.14.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.14.0",
+  "type": "module",
+  "dependencies": {
+    "parse": "^8.6.2",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
